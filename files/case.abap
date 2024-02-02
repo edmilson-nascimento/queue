@@ -34,6 +34,7 @@ START-OF-SELECTION.
     lv_nr_filas = lv_valor.
   ENDIF.
 
+  
 
   DATA(lo_qrfc) = NEW /yga/cl_qrfc( iv_campo    = '/YGA/SET_DLFL'
                                     iv_nr_filas = lv_nr_filas ).
